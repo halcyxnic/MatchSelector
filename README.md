@@ -12,6 +12,8 @@ This *should* be the only requirement before getting started.
 5. Confirm by clicking the "Extract" button
 6. Double-click on the "MatchSelector-main" folder - you should be able to see a bunch of files now.
 
+I'm not adding Linux or GitBash/Git CLI instructions because you'd already know what to do >:(
+
 ## How to use this program
 
 ### Step 1: Set up players
