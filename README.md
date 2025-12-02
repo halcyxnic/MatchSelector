@@ -1,5 +1,13 @@
 # Custom 10-man Match Selector
 
+## How to download this program
+1. Look for the green "<> Code" button.
+2. Click on "Download ZIP"
+3. Find the file in Windows
+4. Right-click on the file and click "Extract All..."
+5. Confirm by clicking the "Extract" button
+6. Double-click on the "MatchSelector-main" folder - you should be able to see a bunch of files now.
+
 ## How to use this program
 
 ### Step 1: Set up players
