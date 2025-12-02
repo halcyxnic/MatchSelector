@@ -12,6 +12,7 @@
 
 ### Step 1: Set up players
 Change the file called playerlist.txt; this will be your list of players
+
 In each line of text, there should be exactly 3 values, separated by commas:
 1. Player's Name
 2. Player's ACS (Average Combat Score)
