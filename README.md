@@ -31,7 +31,7 @@ John,250,600
 There should be exactly 10 lines of text.
 
 ### Step 2: Run the program
-Double-click on the run.bat script!
+Double-click on the run.bat script! (Note: do not use run.ps1; idk why it doesn't work but it just doesn't)
 
 ### Step 3: Share the results (optional)
 There should be a file called "match_data.txt" if the program completed successfully.
