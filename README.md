@@ -10,8 +10,10 @@ In each line of text, there should be exactly 3 values, separated by commas:
 3. Player's Tracker Score (from tracker.gg/valorant)
 
 For example:\
+```
 Jane,300,700\
 John,250,600
+```
 
 There should be exactly 10 lines of text.
 
