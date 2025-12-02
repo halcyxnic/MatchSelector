@@ -11,7 +11,7 @@
 ## How to use this program
 
 ### Step 1: Set up players
-Change the file called playerlist.txt; this will be your list of players
+Change the file called playerlist.txt; this will be your list of players.
 
 In each line of text, there should be exactly 3 values, separated by commas:
 1. Player's Name
