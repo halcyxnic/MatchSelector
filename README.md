@@ -1,5 +1,9 @@
 # Custom 10-man Match Selector
 
+## Install python
+Go to [the Official Python Downloads page](https://www.python.org/downloads/) and download the latest version of Python.
+This *should* be the only requirement before getting started.
+
 ## How to download this program
 1. Look for the green "<> Code" button.
 2. Click on "Download ZIP"
