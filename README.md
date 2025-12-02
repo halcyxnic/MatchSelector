@@ -9,9 +9,9 @@ In each line of text, there should be exactly 3 values, separated by commas:
 2. Player's ACS (Average Combat Score)
 3. Player's Tracker Score (from tracker.gg/valorant)
 
-For example:\
+For example:
 ```
-Jane,300,700\
+Jane,300,700
 John,250,600
 ```
 
