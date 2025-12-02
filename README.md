@@ -11,7 +11,7 @@ In each line of text, there should be exactly 3 values, separated by commas:
 
 For example:\
 Jane,300,700\
-John,250,600\
+John,250,600
 
 There should be exactly 10 lines of text.
 
