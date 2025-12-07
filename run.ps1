@@ -10,6 +10,29 @@
 $VENV_NAME = ".env"
 $REQUIREMENTS_FILE = "requirements.txt" # Ensure this file exists for pip install
 
+# --- 0. Pre-Chck: Ensure playerlist.txt is valid ---
+$lines = Get-Content playerlist.txt
+
+if ($lines.Count -ne 10) {
+    Write-Host "playerlist must have exactly 10 lines."
+    Read-Host -Prompt "Please press Enter, update this file, then re-run the program."
+    exit 1
+}
+
+$regex = '^.*,\d+,\d+$'
+$counter = 1
+
+foreach ($line in $lines) {
+    if ($line -notmatch $regex) {
+        Write-Host "Invalid line ${counter}: ${line}. Must be in format (name),(acs),(trackerscore)."
+        Read-Host -Prompt "Please press Enter, update this file, then re-run the program."
+        exit 1
+    }
+    $counter++
+}
+
+Write-Host "File is valid"
+
 # --- 1. Pre-Check: Ensure Python is available ---
 try {
     Write-Host "Checking for Python..."
