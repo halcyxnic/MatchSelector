@@ -1,5 +1,9 @@
 # Custom 10-man Match Selector
 
+## Install python
+Go to [the Official Python Downloads page](https://www.python.org/downloads/) and download the latest version of Python.
+This *should* be the only requirement before getting started.
+
 ## How to download this program
 1. Look for the green "<> Code" button.
 2. Click on "Download ZIP"
@@ -11,7 +15,8 @@
 ## How to use this program
 
 ### Step 1: Set up players
-Make a new file in this folder called playerlist.txt; this will be your list of players
+Change the file called playerlist.txt; this will be your list of players.
+
 In each line of text, there should be exactly 3 values, separated by commas:
 1. Player's Name
 2. Player's ACS (Average Combat Score)
@@ -26,7 +31,7 @@ John,250,600
 There should be exactly 10 lines of text.
 
 ### Step 2: Run the program
-Double-click on the run.bat script!
+Double-click on the run.bat script! (Note: do not use run.ps1; idk why it doesn't work but it just doesn't)
 
 ### Step 3: Share the results (optional)
 There should be a file called "match_data.txt" if the program completed successfully.
