@@ -29,6 +29,8 @@ def save_state(players: PlayerPool, maps: MapPool, save_file: str = "match_data.
 def bo1(players: PlayerPool):
     maps = MapPool(series_type=BO1_MAP_COUNT)
     maps.ban_phase(1, players.t1c, players.t2c)
+    maps.ban_phase(2, players.t1c, players.t2c)
+    maps.ban_phase(3, players.t1c, players.t2c)
     return maps
 
 def bo3(players: PlayerPool):
